@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Viet’s Easy Way to View WWF</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0b132b; color: #fff; margin: 0; }
+    .page { max-width: 1200px; margin: 0 auto; padding: 32px 20px 80px; }
+    .title { font-size: 48px; font-weight: 900; margin: 10px 0; }
+    .subtitle { font-size: 28px; color: #d7f9f8; margin-bottom: 28px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; }
+    .card { background: #1c2541; border-radius: 22px; padding: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.35); }
+    .step-header { display: flex; align-items: center; gap: 18px; margin-bottom: 10px; }
+    .step-num { width: 64px; height: 64px; border-radius: 18px; display: grid; place-items: center; font-size: 36px; font-weight: 800; color: #0b132b; background: #5bc0be; }
+    .step-title { font-size: 32px; font-weight: 800; }
+    .langs { margin-top: 12px; }
+    .en, .vi { font-size: 24px; }
+    .vi { color: #c4f1ef; margin-top: 6px; }
+    .actions { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn { font-size: 20px; background: #f6ae2d; color: #15202b; border-radius: 14px; padding: 14px 18px; font-weight: 800; text-decoration: none; }
+    .btn.alt { background: #5bc0be; color: #0b132b; }
+    footer { margin-top: 46px; color: #bfe9e7; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="title">Viet’s Easy Way to View WWF</div>
+    <div class="subtitle">English + Tiếng Việt (large & bright)</div>
+
+    <section class="grid">
+      <!-- STEP 1 -->
+      <article class="card">
+        <div class="step-header"><div class="step-num">1</div><div class="step-title">FaceTime Michael • Gọi FaceTime cho Michael</div></div>
+        <div class="langs"><div class="en">Tap to video call Michael.</div><div class="vi">Bấm để gọi video cho Michael.</div></div>
+        <div class="actions"><a class="btn alt" href="facetime://4694357859/">Call Michael</a></div>
+      </article>
+
+      <!-- STEP 2 -->
+      <article class="card">
+        <div class="step-header"><div class="step-num">2</div><div class="step-title">Install My DND Shortcut • Cài phím tắt Không Làm Phiền</div></div>
+        <div class="langs"><div class="en">Install the Do Not Disturb shortcut.</div><div class="vi">Cài đặt phím tắt <b>Không Làm Phiền</b>.</div></div>
+        <div class="actions"><a class="btn" href="https://www.icloud.com/shortcuts/a07afa3ed017455a8de735282b74d34c">Install Shortcut</a></div>
+      </article>
+
+      <!-- STEP 3 -->
+      <article class="card">
+        <div class="step-header"><div class="step-num">3</div><div class="step-title">Set Mac to DO NOT DISTURB • Bật Không Làm Phiền trên Mac</div></div>
+        <div class="langs"><div class="en">Turn on Do Not Disturb before watching.</div><div class="vi">Bật <b>Không Làm Phiền</b> trước khi xem.</div></div>
+        <div class="actions"><a class="btn alt" href="shortcuts://run-shortcut/?name=DO%20NOT%20DISTURB%20ME">Run Shortcut</a></div>
+      </article>
+
+      <!-- STEP 4 -->
+      <article class="card">
+        <div class="step-header"><div class="step-num">4</div><div class="step-title">Open VPN • Mở VPN</div></div>
+        <div class="langs"><div class="en">Open your VPN app first.</div><div class="vi">Mở ứng dụng VPN trước.</div></div>
+        <div class="actions"><a class="btn" href="expressvpn://">Open VPN</a></div>
+      </article>
+
+      <!-- STEP 5 -->
+      <article class="card">
+        <div class="step-header"><div class="step-num">5</div><div class="step-title">Install Netflix for Chrome • Cài Netflix trên Chrome</div></div>
+        <div class="langs"><div class="en">Make sure Netflix works in Google Chrome.</div><div class="vi">Đảm bảo Netflix chạy trong Google Chrome.</div></div>
+        <div class="actions"><a class="btn alt" href="https://www.icloud.com/shortcuts/eb0bec780a6f4c0bb32fd4661b629f80">Install Netflix Shortcut</a></div>
+      </article>
+
+      <!-- STEP 6 -->
+      <article class="card">
+        <div class="step-header"><div class="step-num">6</div><div class="step-title">Open Netflix in Chrome Web • Mở Netflix trong Chrome</div></div>
+        <div class="langs"><div class="en">Use the Shortcut to open Netflix directly in Chrome.</div><div class="vi">Dùng Phím tắt để mở Netflix trực tiếp trong Chrome.</div></div>
+        <div class="actions"><a class="btn" href="shortcuts://run-shortcut/?name=Open%20Netflix%20in%20Chrome">Run Netflix Shortcut</a></div>
+      </article>
+
+      <!-- STEP 7 -->
+      <article class="card">
+        <div class="step-header"><div class="step-num">7</div><div class="step-title">Open HBO Max • Mở HBO Max</div></div>
+        <div class="langs"><div class="en">Go to HBO Max to watch more.</div><div class="vi">Mở HBO Max để xem thêm.</div></div>
+        <div class="actions"><a class="btn" href="https://play.hbomax.com/" target="_blank">Open HBO Max</a></div>
+      </article>
+    </section>
+
+    <footer>Built for large, high-contrast reading. All buttons now link to your exact URLs, including your FaceTime number.</footer>
+  </div>
+</body>
+</html>
